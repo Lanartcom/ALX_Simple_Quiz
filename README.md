@@ -1,48 +1,65 @@
-# Simple Quiz Application
+# Simple Quiz & Calculator Applications
 
-This is a basic JavaScript-based quiz application that allows users to answer a single question, check their answer, and receive immediate feedback. The quiz is built with HTML for structure, CSS for styling, and JavaScript for logic and interactivity.
+This repository contains two basic web-based projects: a **Simple Quiz Application** and a **Simple Calculator**. Both are built using HTML, CSS, and JavaScript, demonstrating fundamental web development concepts.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Project 1: Simple Quiz Application](#project-1-simple-quiz-application)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [How It Works](#how-it-works)
+  - [Usage](#usage)
+- [Project 2: Simple Calculator](#project-2-simple-calculator)
+  - [Overview](#overview-1)
+  - [Features](#features-1)
+  - [How It Works](#how-it-works-1)
+  - [Usage](#usage-1)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#future-enhancements)
 
-## Project Overview
-The goal of this project is to create a simple interactive quiz that checks if the user's selected answer is correct and provides feedback accordingly. The user is presented with a single multiple-choice question, and upon submitting their answer, the application evaluates the response and shows whether it was correct or incorrect.
+---
 
-## Features
-- Single question multiple-choice quiz.
-- Immediate feedback after submitting the answer.
-- Lightweight and easy-to-understand code structure using HTML, CSS, and JavaScript.
+## Project 1: Simple Quiz Application
 
-## How It Works
-1. The HTML file provides the structure for the quiz, including:
-   - A question.
-   - Three multiple-choice answers as radio buttons.
-   - A "Submit Answer" button to check the selected answer.
-   - A feedback area where the result ("Correct" or "Incorrect") is displayed.
-   
-2. The CSS file (`style.css`) can be used to style the quiz layout, making it visually appealing.
+### Overview
+A basic quiz application that allows users to answer a single multiple-choice question and provides immediate feedback on whether their answer is correct or incorrect.
 
-3. The JavaScript file (`quiz.js`) handles the logic:
-   - It listens for a click event on the "Submit Answer" button.
-   - When clicked, it checks which radio button is selected.
-   - The selected answer is compared with the correct answer.
-   - Feedback is provided in a message, either congratulating the user or prompting them to try again.
+### Features
+- Single multiple-choice question.
+- Instant feedback (correct/incorrect).
+- Lightweight and straightforward code using HTML, CSS, and JavaScript.
 
-## Usage
-1. Open the `index.html` file in any modern web browser.
-2. The quiz will display a question and three possible answers.
-3. Select an answer by clicking one of the radio buttons.
-4. Click the "Submit Answer" button to check your answer.
-5. Feedback will appear below the question, indicating whether your answer was correct or incorrect.
+### How It Works
+1. User selects an answer from the options (radio buttons).
+2. Clicks the "Submit Answer" button to submit the response.
+3. Feedback is displayed indicating whether the answer is correct or incorrect.
+
+### Usage
+1. Open the `index.html` file in a web browser.
+2. Answer the question and click the "Submit Answer" button to check the response.
+
+---
+
+## Project 2: Simple Calculator
+
+### Overview
+A basic calculator that performs simple arithmetic operations: addition, subtraction, multiplication, and division.
+
+### Features
+- Perform operations: `+`, `-`, `*`, `/`.
+- Handles division by zero with an error message.
+- Displays the result instantly after button click.
+
+### How It Works
+1. User enters two numbers in the input fields.
+2. Selects an arithmetic operation by clicking the corresponding button.
+3. The result is displayed below the input fields.
+
+### Usage
+1. Open the `index.html` file in a web browser.
+2. Enter two numbers and click any operation button to perform the calculation.
+
+---
 
 ## Technologies Used
-- **HTML5**: For structuring the quiz interface.
-- **CSS3**: For basic styling of the quiz elements.
-- **JavaScript (ES6)**: For handling quiz logic and interactivity.
-
+- **HTML5**: For structuring the quiz and calculator interfaces.
+- **CSS3**: For basic styling.
+- **JavaScript (ES6)**: For handling the logic and interactivity of both applications.
